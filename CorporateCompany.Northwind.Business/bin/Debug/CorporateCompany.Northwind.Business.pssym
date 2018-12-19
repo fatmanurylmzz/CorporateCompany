@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="80" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.LogAspects.LogAspect">
+    <Instance Declaration="#2=M:[CorporateCompany.Northwind.Business]CorporateCompany.Northwind.Business.Concrete.Managers.ProductManager::GetAll()" Id="a0d6e15c246603e9">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" Ordinal="2" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#2" Id="a0d6e15c7fcc143e">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#4=M:[CorporateCompany.Northwind.Business]CorporateCompany.Northwind.Business.Concrete.Managers.ProductManager::Add(CorporateCompany.Northwind.Entities.Concrete.Product)" Id="a0d6e15ccc97a6c4">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="6" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#5=T:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.PerformanceAspects.PerformanceCounterAspect">
+    <Instance Declaration="#2" Id="a0d6e15c4f83eb41">
+      <Target>
+        <JoinPoint Advising="#5" Description="#3" Ordinal="0" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#6=T:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.ValidationAspects.FluentValidationAspect">
+    <Instance Declaration="#4" Id="a0d6e15c60045b30">
+      <Target>
+        <JoinPoint Advising="#6" Description="#3" Ordinal="4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7=M:[CorporateCompany.Northwind.Business]CorporateCompany.Northwind.Business.Concrete.Managers.ProductManager::Update(CorporateCompany.Northwind.Entities.Concrete.Product)" Id="a0d6e15cf160640f">
+      <Target>
+        <JoinPoint Advising="#6" Description="#3" Ordinal="7" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#8=M:[CorporateCompany.Northwind.Business]CorporateCompany.Northwind.Business.Concrete.Managers.ProductManager::TransactionalOperation(CorporateCompany.Northwind.Entities.Concrete.Product, CorporateCompany.Northwind.Entities.Concrete.Product)" Id="a0d6e15c5d1dca07">
+      <Target>
+        <JoinPoint Advising="#6" Description="#3" Ordinal="9" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#9=T:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.CacheAspects.CacheRemoveAspect">
+    <Instance Declaration="#4" Id="a0d6e15ca33feede">
+      <Target>
+        <JoinPoint Advising="#9" Description="#3" Ordinal="5" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#10=T:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.TransactionAspects.TransactionScopeAspect">
+    <Instance Declaration="#8" Id="a0d6e15c2944ce3d">
+      <Target>
+        <JoinPoint Advising="#10" Description="#3" Ordinal="8" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#11=T:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.CacheAspects.CacheAspect">
+    <Instance Declaration="#2" Id="a0d6e15c0294f76b">
+      <Target>
+        <JoinPoint Advising="#11" Description="#12=Intercepted by OnInvoke" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#13=M:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.LogAspects.LogAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14=2" Description="#15=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#16=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnSuccess([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14" Description="#15" />
+  <Annotation Target="#17=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnExit([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14" Description="#15" />
+  <Annotation Target="#18=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnException([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14" Description="#15" />
+  <Annotation Target="#19=M:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.PerformanceAspects.PerformanceCounterAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14" Description="#15" />
+  <Annotation Target="#20=M:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.PerformanceAspects.PerformanceCounterAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14" Description="#15" />
+  <Annotation Target="#21=M:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.ValidationAspects.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14" Description="#15" />
+  <Annotation Target="#22=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnEntry([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14" Description="#15" />
+  <Annotation Target="#23=M:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.CacheAspects.CacheRemoveAspect::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14" Description="#15" />
+  <Annotation Target="#24=M:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.TransactionAspects.TransactionScopeAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14" Description="#15" />
+  <Annotation Target="#25=M:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.TransactionAspects.TransactionScopeAspect::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14" Description="#15" />
+  <Annotation Target="#26=M:[CorporateCompany.Core]CorporateCompany.Core.Aspects.Postsharp.TransactionAspects.TransactionScopeAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#14" Description="#15" />
+</Symbols>

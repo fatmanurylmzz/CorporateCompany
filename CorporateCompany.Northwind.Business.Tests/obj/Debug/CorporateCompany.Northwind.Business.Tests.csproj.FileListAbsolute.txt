@@ -1,0 +1,4 @@
+C:\Users\TEKNO BİLİŞİM\Desktop\KurumsalBackEnd\CorporateCompany\CorporateCompany.Northwind.Business.Tests\obj\Debug\CorporateCompany.Northwind.Business.Tests.csprojAssemblyReference.cache
+C:\Users\TEKNO BİLİŞİM\Desktop\KurumsalBackEnd\CorporateCompany\CorporateCompany.Northwind.Business.Tests\obj\Debug\CorporateCompany.Northwind.Business.Tests.csproj.CoreCompileInputs.cache
+C:\Users\TEKNO BİLİŞİM\Desktop\allCourse\KurumsalBackEnd\CorporateCompany\CorporateCompany.Northwind.Business.Tests\obj\Debug\CorporateCompany.Northwind.Business.Tests.csprojAssemblyReference.cache
+C:\Users\TEKNO BİLİŞİM\Desktop\allCourse\KurumsalBackEnd\CorporateCompany\CorporateCompany.Northwind.Business.Tests\obj\Debug\CorporateCompany.Northwind.Business.Tests.csproj.CoreCompileInputs.cache
